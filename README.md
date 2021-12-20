@@ -1,4 +1,4 @@
-# IPG-Turnkey-NodeJS-SDK
+# BOIPA-Turnkey-NodeJS-SDK
 This library provides integration access to the Turnkey IPG Api.
 
 ## Quick Start
