@@ -1,5 +1,5 @@
-# IPG-Turnkey-NodeJS-SDK
-This library provides integration access to the Turnkey IPG Api.
+# BOIPA-NodeJS-SDK
+This library provides integration access to the  BOIPA Api.
 
 ## Quick Start
 Payments NodeJS SDK is a small library/sample of NodeJs code that you can use to quickly integrate with the Payments system and submit transactions, check their status and more.
