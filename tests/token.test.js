@@ -67,7 +67,7 @@ describe('testing token request:', function () {
     it('success token request', async () => {
         const response = await new TokenizeCall(tokenizeRequestParams).token();
         expect(response.result).toEqual('success');
-        expect(response.merchantId).toEqual('800261');
+        expect(response.merchantId).toEqual('167862');
         expect(response.token).not.toEqual(null);
     });
 
