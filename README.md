@@ -23,5 +23,5 @@ Visit [http://127.0.0.1:3000](http://127.0.0.1:3000)
 Default merchant info is defined in `webapp/src/routes/index.js`, it can be modified in the file or just input it in the form.
 
 #### Environment
-The SDK demo is preset to the development environemnt. This will need to be changed to 'production' to point to PROD endpoints.
+The SDK demo is preset to the development environment. This will need to be changed to 'production' to point to PROD endpoints.
 
