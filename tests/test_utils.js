@@ -23,7 +23,7 @@ export const veryBasicRequestParams = {
 export const basicMerchantRequestParams = {
   ...veryBasicRequestParams,
   country: 'IE',
-  currency: 'EUR',
+  currency: 'GBP',
   channel: 'ECOM'
 }
 
@@ -64,7 +64,7 @@ export const missingPaymentSolutionId = (response) => {
 export const setBasicPaymentParams = (requestParams, cardToken, customerId) => {
   requestParams.amount = 10;
   requestParams.country = 'IE';
-  requestParams.currency = 'EUR';
+  requestParams.currency = 'GBP';
   requestParams.channel = 'ECOM';
   requestParams.customerId = customerId;
   requestParams.specinCreditCardToken = cardToken;
@@ -87,7 +87,7 @@ export const testSuccessVerification = (response) => {
   expect(response.status).toEqual('VERIFIED');
   expect(response.paymentSolutionId).toEqual('500');
   expect(response.brandId).toEqual('1686780000');
-  expect(response.currency).toEqual('EUR');
+  expect(response.currency).toEqual('GBP');
   expect(response.amount).toEqual('0');
   expect(response.merchantId).toEqual('168678');
 }

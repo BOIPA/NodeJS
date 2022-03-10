@@ -19,7 +19,7 @@ const merchant = {
   'password': '12345',
   'country': 'IE',
   'number': '4111111111111111',
-  'currency': 'EUR',
+  'currency': 'GBP',
 };
 
 let serverConfig = {
